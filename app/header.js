@@ -24,7 +24,7 @@ function NavBar() {
       </ul>
     </div>
 
-    <Link href="/" className="btn  text-xl bg-slate-100">Listen to Nature's Symphony</Link>
+    <Link href="/" className="btn  text-xl bg-slate-100">Listen to Nature&apos;s Symphony</Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
