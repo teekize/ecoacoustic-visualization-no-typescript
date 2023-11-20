@@ -7,12 +7,18 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'custom-dark': '#162829',
+        'custom-medium': '#316459',
+        'custom-light': '#316459',
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-custom': 'linear-gradient(to left, #162829, #316459, #162829)',
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["forest","cupcake"],
+  },
 }
